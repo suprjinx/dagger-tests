@@ -22,6 +22,11 @@ done
 class Gingerbread:
     @check
     @function
+    async def foo(self, src: Source):
+        await self.do_something(src)
+
+    @check
+    @function
     async def bar(self, src: Source):
         await self.do_something(src)
 

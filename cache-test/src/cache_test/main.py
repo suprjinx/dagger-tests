@@ -3,7 +3,7 @@ from typing import Annotated
 from dagger import dag, function, object_type, check
 import dagger
 
-Source = Annotated[dagger.Directory, dagger.DefaultPath("/")]
+#Source = Annotated[dagger.Directory, dagger.DefaultPath("/")]
 
 @object_type
 class CacheTest:
