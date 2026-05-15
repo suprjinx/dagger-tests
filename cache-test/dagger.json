@@ -1,0 +1,13 @@
+{
+  "name": "cache-test",
+  "engineVersion": "v0.20.8",
+  "sdk": {
+    "source": "python"
+  },
+  "toolchains": [
+    {
+      "name": "gingerbread",
+      "source": "gingerbread"
+    }
+  ]
+}
