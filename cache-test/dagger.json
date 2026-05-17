@@ -7,7 +7,27 @@
   "toolchains": [
     {
       "name": "gingerbread",
-      "source": "gingerbread"
+      "source": "gingerbread",
+      "customizations": [
+        {
+          "function": ["foo"],
+          "argument": "src",
+          "defaultPath": "/",
+          "ignore": ["sdk", "**/__pycache__", "**/.venv"]
+        },
+        {
+          "function": ["bar"],
+          "argument": "src",
+          "defaultPath": "/",
+          "ignore": ["sdk", "**/__pycache__", "**/.venv"]
+        },
+        {
+          "function": ["do_something"],
+          "argument": "src",
+          "defaultPath": "/",
+          "ignore": ["sdk", "**/__pycache__", "**/.venv"]
+        }
+      ]
     }
   ]
 }
