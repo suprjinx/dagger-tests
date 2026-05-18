@@ -20,10 +20,10 @@ done
 
 @object_type
 class Gingerbread:
-    @check
-    @function
-    async def foo(self, src: Source):
-        await self.do_something(src)
+    # @check
+    # @function
+    # async def foo(self, src: Source):
+    #     await self.do_something(src)
 
     @check
     @function
