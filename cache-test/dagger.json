@@ -12,13 +12,13 @@
         {
           "function": ["do_something"],
           "argument": "src",
-          "defaultPath": "/",
+          "defaultPath": ".",
           "ignore": ["dagger", "**/bin/*", "**/obj/*"]
         },
         {
           "function": ["bar"],
           "argument": "src",
-          "defaultPath": "/",
+          "defaultPath": ".",
           "ignore": ["dagger", "**/bin/*", "**/obj/*"]
         }
       ]

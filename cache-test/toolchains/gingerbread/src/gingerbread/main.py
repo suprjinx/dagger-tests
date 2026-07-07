@@ -3,7 +3,7 @@ from typing import Annotated
 from dagger import dag, function, object_type, check
 import dagger
 
-Source = Annotated[dagger.Directory, dagger.DefaultPath("/")]
+Source = Annotated[dagger.Directory, dagger.DefaultPath(".")]
 
 script = """
 n="$RANDOM"
@@ -20,11 +20,6 @@ done
 
 @object_type
 class Gingerbread:
-    # @check
-    # @function
-    # async def foo(self, src: Source):
-    #     await self.do_something(src)
-
     @check
     @function
     async def bar(self, src: Source):

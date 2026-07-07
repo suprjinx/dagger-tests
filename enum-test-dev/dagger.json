@@ -1,0 +1,7 @@
+{
+  "name": "enum-test",
+  "engineVersion": "v0.21.5-20260612135259-dev-1669f3a76e5b",
+  "sdk": {
+    "source": "python"
+  }
+}

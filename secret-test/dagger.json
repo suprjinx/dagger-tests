@@ -1,0 +1,7 @@
+{
+  "name": "secret-test",
+  "engineVersion": "v0.21.0-20260512135312-dev-8bb969fea2a7",
+  "sdk": {
+    "source": "python"
+  }
+}

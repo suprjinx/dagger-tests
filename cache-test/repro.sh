@@ -1,7 +1,7 @@
 dagger version
-dagger core version
+dagger --progress plain core version
 
-dagger core engine local-cache prune
-dagger call foo
-dagger call gingerbread bar
-dagger call gingerbread read
+dagger --progress plain core engine local-cache prune
+dagger --progress plain call foo
+dagger --progress plain call gingerbread bar
+dagger --progress plain call gingerbread read
